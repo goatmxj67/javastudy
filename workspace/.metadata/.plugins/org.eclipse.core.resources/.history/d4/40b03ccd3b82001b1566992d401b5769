@@ -1,0 +1,19 @@
+package quiz05;
+
+public class Circle {
+
+	double radius; // 반지름
+
+	void setRadius(double radius) {
+		this.radius = radius;
+	}
+
+	double getCircum() {
+		return 2 * 3.14 * radius;
+	}
+
+	double getArea() {
+		return 3.14 * Math.pow(radius, 2);
+	}
+
+}

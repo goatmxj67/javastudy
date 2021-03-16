@@ -1,0 +1,24 @@
+package ex01_array;
+
+public class Ex03_array_reference {
+
+	public static void main(String[] args) {
+		
+		// 배열은 reference type입니다.
+		
+		int[] arr = new int[3];
+		
+		System.out.println(arr); //I@15db9742 -> @: at / 15db9742: 16진수 address
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

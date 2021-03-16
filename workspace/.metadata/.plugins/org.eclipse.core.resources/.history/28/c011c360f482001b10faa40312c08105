@@ -1,0 +1,41 @@
+package quiz04;
+
+public class Gun {
+
+	private String model;
+	private int bullet;
+	private final int FULL_BULLET = 6;
+
+	public Gun(String model, int bullet) {
+		this.model = model;
+		this.bullet = bullet;
+	}
+
+	public void shoot() {
+		if (bullet > 0) {
+			bullet--;
+			System.out.println("빵야! " + bullet + "발 남았다.");
+		}
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public int getBullet() {
+		return bullet;
+	}
+
+	public void setBullet(int bullet) {
+		this.bullet = bullet;
+	}
+
+	public int getFULL_BULLET() {
+		return FULL_BULLET;
+	}
+
+}

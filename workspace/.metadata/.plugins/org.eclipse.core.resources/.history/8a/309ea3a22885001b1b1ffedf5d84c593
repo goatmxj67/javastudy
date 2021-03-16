@@ -1,0 +1,13 @@
+package quiz06;
+
+public class BreadAndChange {
+
+	private int bread;
+	private int change;
+	
+	
+	
+	
+	
+	
+}

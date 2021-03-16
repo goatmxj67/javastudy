@@ -1,0 +1,15 @@
+package ex07_recursive;
+
+public class Adder {
+
+	private int total; // total = 0
+
+	public void calculate(int n) {
+		if (n > 0) {
+			total += n;
+			calculate(n - 1);
+		}
+		System.out.println(total);
+	}
+
+}

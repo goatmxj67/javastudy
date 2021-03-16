@@ -1,0 +1,22 @@
+package quiz02;
+
+public class Circle {
+
+	private Coord center;
+	private double radius;
+
+	public Circle(Coord center2, double d) {
+		this.center = center2;
+		this.radius = d;
+	}
+
+	public double area() {
+		return Math.PI * Math.pow(this.radius, 2);
+	}
+
+	void info() {
+		// 중심좌표 [0, 0], 반지름 1.5, 넓이 x.xx
+		System.out.println("중심좌표 " + "[" + x + ", " + y + "]" + "반지름 " + radius + ", 넓이 " + area());
+	}
+
+}

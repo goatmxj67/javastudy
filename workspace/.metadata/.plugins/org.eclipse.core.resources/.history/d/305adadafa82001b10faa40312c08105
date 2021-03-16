@@ -1,0 +1,12 @@
+package quiz05;
+
+public class BankAccount {
+
+	private String accNo;  // 계좌번호
+	private long balance;
+	
+	
+	
+	
+	
+}

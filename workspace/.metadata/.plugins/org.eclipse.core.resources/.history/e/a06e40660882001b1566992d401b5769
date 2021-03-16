@@ -1,0 +1,32 @@
+package ex03_api;
+
+import java.util.Calendar;
+
+// 2. Calendar를 활용해서 기념일 계산하기
+// 1) 두 개의 날짜를 만들고, 그 중 하나는 기념일로 수정
+// 2) 날짜의 차이를 구하고, 그 결과를 일 수로 출력하기
+
+public class Quiz02 {
+
+	public static void main(String[] args) {
+		
+		Calendar date = Calendar.getInstance();
+
+		int year = date.get(Calendar.YEAR);
+		int month = date.get(Calendar.MONTH) + 1; // Calendar.Month: 0 ~ 11
+		int day = date.get(Calendar.DAY_OF_MONTH);
+		
+		
+		// 날짜 변경하기
+		date.set(2021, 0, 1); // 날짜: 1990년 11월 10일 9시 30분 40초
+		System.out.println(date);
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

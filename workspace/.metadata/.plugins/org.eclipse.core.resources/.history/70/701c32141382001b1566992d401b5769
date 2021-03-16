@@ -1,0 +1,24 @@
+package quiz01;
+
+public class Book {
+
+	String title;  
+	String author;
+	int price;
+	String inventory;
+	String publisher;
+	char gender;  
+	boolean isKorean; 
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

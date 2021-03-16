@@ -1,0 +1,21 @@
+package quiz02;
+
+public class Calculator {
+
+	void addition(int a, int b) {
+		System.out.println(a + " + " + b + " = " + (a + b));
+	}
+
+	int subtraction(int a, int b) {
+
+		int sub;
+
+		if (a > b) {
+			sub = a - b;
+		} else {
+			sub = b - a;
+		}
+		return sub;
+	}
+
+}

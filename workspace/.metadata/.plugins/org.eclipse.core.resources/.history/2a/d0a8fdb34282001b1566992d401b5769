@@ -1,0 +1,21 @@
+package quiz06;
+
+public class Book {
+
+	String title;
+	String author;
+	int price;
+
+	Book(String t, String a, int p) {
+		System.out.println("제목: " + title + ", 저자: " + author + ", 가격: " + price + "원");
+	}
+
+	Book(String t, int p) {
+		this(t, "미상", p);
+	}
+
+	Book() {
+		this("없음", "미상", 0);
+	}
+
+}
