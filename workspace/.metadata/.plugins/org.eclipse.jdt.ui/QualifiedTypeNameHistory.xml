@@ -11,7 +11,6 @@
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="ex07_recursive.Calculator"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="quiz04.Soldier"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
@@ -20,4 +19,9 @@
 <fullyQualifiedTypeName name="quiz12.SeatGroup"/>
 <fullyQualifiedTypeName name="quiz12.ConcertHall"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="quiz.SalesMan"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
+<fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
 </qualifiedTypeNameHistroy>
