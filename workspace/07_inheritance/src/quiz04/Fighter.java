@@ -14,7 +14,7 @@ public abstract class Fighter {
 		this.power = power;
 		this.isAlive = true;
 	}
-
+ 
 	public abstract void attack(Fighter fighter);
  
 }
