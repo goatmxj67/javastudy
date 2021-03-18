@@ -16,5 +16,5 @@ public abstract class Fighter {
 	}
 
 	public abstract void attack(Fighter fighter);
-
+ 
 }
