@@ -21,7 +21,10 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="quiz.SalesMan"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Espresso"/>
 <fullyQualifiedTypeName name="ex09_upcasting.Latte"/>
+<fullyQualifiedTypeName name="ex10_downcasting.Student"/>
+<fullyQualifiedTypeName name="ex10_downcasting.Worker"/>
+<fullyQualifiedTypeName name="ex12_abstract.Rectangle"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
