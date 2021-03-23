@@ -22,10 +22,8 @@
 <fullyQualifiedTypeName name="ex10_downcasting.Student"/>
 <fullyQualifiedTypeName name="ex10_downcasting.Worker"/>
 <fullyQualifiedTypeName name="ex12_abstract.Rectangle"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="ex15_interface_extends.SmartPhone"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="ex05_throw.Calculator"/>
@@ -39,4 +37,16 @@
 <fullyQualifiedTypeName name="ex07_exception_class.DepositException"/>
 <fullyQualifiedTypeName name="ex07_exception_class.WithdrawException"/>
 <fullyQualifiedTypeName name="ex08_exception_class.BankAccountException"/>
+<fullyQualifiedTypeName name="javax.annotation.Generated"/>
+<fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+<fullyQualifiedTypeName name="lombok.Data"/>
+<fullyQualifiedTypeName name="lombok.Getter"/>
+<fullyQualifiedTypeName name="lombok.Setter"/>
+<fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="ex01_generic.Box"/>
+<fullyQualifiedTypeName name="ex01_generic.Fruit"/>
+<fullyQualifiedTypeName name="ex03_generic.Box"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="ex04_generic_method.Calculator"/>
 </qualifiedTypeNameHistroy>
