@@ -10,3 +10,5 @@ CREATE TABLE staff
 	hireDate DATE,
 	PRIMARY KEY(no)
 );
+
+SELECT no, name, department, hireDate FROM staff;
