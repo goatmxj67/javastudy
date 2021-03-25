@@ -22,5 +22,5 @@ public class StaffDto {
 	private String name;
 	private String department;
 	private Date hireDate;
-
+	
 }
