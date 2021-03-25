@@ -71,7 +71,9 @@ public class StaffDao {
 		}
 	}
 
-	/***** 3. staff 추가하기 *****/
+	/***** 3. 가장 최근에 추가된 staff의 no 알아내기 *****/
+
+	/***** 4. staff 추가하기 *****/
 	// public int insertStaff(int no, String name, String department, Date hireDate)
 	public int insertStaff(StaffDto staffDto) {
 		try {
@@ -88,6 +90,24 @@ public class StaffDao {
 			close(con, ps, null);
 		}
 		return result; // 삽입되면 result는 1, 실패하면 result는 0
+	}
+
+	/***** 5. staff 수정하기 *****/
+	public int updateStaff(StaffDto staffDto) {
+		try {
+			con = getConnection();
+			sql = "UPDATE staff SET name = ?, department = ? WHERE no = ?";
+			ps = con.prepareStatement(sql);
+			ps.setString(1, staffDto.getName());
+			ps.setString(2, staffDto.getDepartment());
+			ps.setInt(3, staffDto.getNo());
+			result = ps.executeUpdate();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			close(con, ps, rs);
+		}
+		return result;
 	}
 
 }
