@@ -15,7 +15,7 @@ public class MainClass {
 		p2.start();
 		p3.start();
 
-		System.out.println("모두 식사가 끝났습니다."); // 스레드 상황에서는 틀린 메시지 
+		System.out.println("모두 식사가 끝났습니다."); // 스레드 상황에서는 틀린 메시지입니다.
 
 	}
 
